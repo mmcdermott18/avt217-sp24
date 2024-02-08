@@ -26,9 +26,11 @@ p {
   letter-spacing: .5px;
   margin-top: 0;
 }
+
 a {
   text-decoration: none; /* this gets rid of the default underline */
 }
+
 a:link {
   color: tomato;
 }
@@ -39,5 +41,5 @@ a:hover {
   color: whitesmoke;
 }
 a:active {
-  color: yellow;
+  color: whitesmoke;
 }
