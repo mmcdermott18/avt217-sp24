@@ -3,20 +3,23 @@ body {
   color: whitesmoke;
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 700;
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 h1 {
-  font-size: 90px;
+  font-size: 300px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 0;
+  line-height: .8;
 }
 h2 {
   font-size: 45px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 0;
+  margin-left: 18px;
 }
 p {
   font-size: 22px;
@@ -36,5 +39,5 @@ a:hover {
   color: whitesmoke;
 }
 a:active {
-  color: whitesmoke;
+  color: yellow;
 }
