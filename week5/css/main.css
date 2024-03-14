@@ -1,0 +1,16 @@
+/* body {
+  background-color: #222222;
+  color: white;
+}
+.teacher, .student {
+  color: tomato;
+}
+h1, h2, h3 {
+  color: dodgerblue;
+}
+#wilson, #michael {
+  color: gold;
+} */
+img {
+  max-width: 100%;
+}

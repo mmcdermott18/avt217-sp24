@@ -1,0 +1,50 @@
+body {
+  margin: 0
+}
+header, footer {
+  width: 70vw;
+  height: 100px;
+  background-color: dodgerblue;
+  margin: 50px auto;
+}
+main {
+  width: 70vw;
+  margin: 50px auto;
+  display: flow-root;
+}
+.cola {
+  width: 45%;
+  float: left;
+}
+.colb {
+  width: 45%;
+  margin: 0 0 0 10%;
+  float: left;
+}
+img {
+  width: 100%;
+}
+h2 {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cola, .colb {
+    width: 100%;
+    margin: 0;
+  }
+  h2 {
+    margin-top: 1em;
+  }
+  header, footer, main {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  header, footer, main {
+    width: 95vw;
+  }
+  header {
+    margin-top: 25px;
+  }
+}

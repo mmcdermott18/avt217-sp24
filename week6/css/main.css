@@ -1,0 +1,40 @@
+body {
+  background-color: #000000;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 200px 0 0 0;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-color: #ffffff;
+    color: black;
+  }
+  h1 {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  body {
+    background-color: black;
+    color: tomato;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: tomato;
+    color: black;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
