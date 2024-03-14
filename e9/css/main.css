@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; }
+#p1 {background-color: blue;}
+.p1-1 {
+	width: 81px;
+	height: 81px;
+	background-color: rgba(0,0,0,.8);
+	float: left;
+	border: 10px solid white;
+	margin: 0px;
+	border-top-left-radius: 50%;
+	transform: skew(30deg, 20deg);
+}
