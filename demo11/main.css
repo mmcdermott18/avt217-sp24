@@ -6,6 +6,7 @@
 body {
 	margin: 0;
 }
+/*  header styles  */
 header {
 	font-weight: 800;
 	font-size: 20px;
@@ -23,14 +24,60 @@ header {
 .site-title p {
 	margin: 0;
 }
-ul {
+nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	float: right;
 }
-li {
+nav li {
 	padding: 0;
 	margin: 0 0 0 50px;
 	float: left;
+}
+
+/*   main styles   */
+main {
+	width: 80vw;
+	margin: 0 auto;
+	display: flow-root;
+}
+#hero {
+	width: 100%;
+	height: 700px;
+	background-color: black;
+	 background: url(hero.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+	max-width: 100%;
+}
+p.quote {
+	font-size: 64px;
+	font-weight: 800;
+	margin: 100px;
+}
+.col {
+	width: calc((100% - 50px) / 3);
+	background-color: black;
+	float: left;
+}
+.center {
+	margin: 0 25px;
+}
+
+
+/*  footer styles   */
+footer {
+	width: 80vw;
+	margin: 100px auto 50px;
+	padding: 50px 0 0 0;
+	border-top: 3px solid black;
+}
+footer p {
+	text-align: center;
+	font-weight: 400;
 }
