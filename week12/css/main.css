@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+div {
+	width: 500px;
+	height: 500px;
+	background: tomato;
+	margin: calc((100vh - 500px) / 2) auto;
+}
+
+div:hover {
+	cursor: pointer;
+	animation: 2s ease-in-out move infinite alternate;
+}
+
+@keyframes move {
+  0% {
+    border-radius: 0;
+    background-color: tomato;
+  }
+  100% {
+    border-radius: 50%;
+    background-color: goldenrod;
+  }
+}
