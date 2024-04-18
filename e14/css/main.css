@@ -4,3 +4,25 @@
 body {
   margin: 0;
 }
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  margin: 200px auto 0;
+  transition: all 1s ease;
+}
+.square:hover {
+  cursor: pointer;
+}
+.circle {
+  border-radius: 50%;
+}
+.rotate {
+  transform: rotate(360deg);
+}
+.on {
+  visibility: hidden;
+}
+.off {
+  visibility: hidden;
+}

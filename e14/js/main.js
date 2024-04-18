@@ -1,14 +1,14 @@
 $(document).ready(function() {
     // run function on initial page load
-    // functionName();
+    clickDemo();
 });
-function functionName() {
-  
-}
-function nav() {
-  $('.class').click(function(){
-    $('#id').removeClass('class');
-    $('html').addClass('class');
+
+function clickDemo() {
+  $('#topSquare').hover(function(){
+    $('#topSquare').toggleClass('rotate');
+  });
+  $('#bottomSquare').click(function(){
+    $('#topSquare').removeClass('off');
   });
 }
 
